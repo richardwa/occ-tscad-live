@@ -1,0 +1,25 @@
+{
+  "name": "occ-tscad-live",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "format": "bun x prettier -w .",
+    "prebuild": "bun run format",
+    "build": "tsc && vite build",
+    "postbuild": "bun postbuild.ts"
+  },
+  "dependencies": {
+    "@google/model-viewer": "^1.12.1",
+    "express": "^5.2.1",
+    "opencascade.js": "2.0.0-beta.c301f5e",
+    "prettier": "^3.8.1",
+    "solid-vanilla": "github:richardwa/solid-vanilla",
+    "occ-tscad": "github:richardwa/occ-tscad"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  }
+}

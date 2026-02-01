@@ -1,0 +1,4 @@
+import { b as t } from "./polygon-Crw73Ab-.js";
+const r = () =>
+  t(2, 2, 2).cut({ radius: 0.2, target: t(2, 2, 2).translate([1, 1, 1]) });
+export { r as main };

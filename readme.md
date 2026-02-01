@@ -1,22 +1,7 @@
-# Occ TSCad
+# Occ TSCad Live Demo
 
 Typescript CSG library leveraging Opencascade.js for rendering
-[Live Editor](https://richardwa.github.io/occ-tscad/#/live-editor)
+[Live Editor](https://richardwa.github.io/occ-tscad-live/#/live-editor/)
 
-## Getting Started
-
-```sh
-# install and build workspace
-bun add -D
-bun run build
-
-# goto sample CAD files folder
-cd projects
-bun start
-```
-
-open your browser to localhost:5177
-
-## API (WIP)
-
-- check examples under public/models
+## Usage - see main project
+[library home](https://github.com/richardwa/occ-tscad)
